@@ -39,6 +39,5 @@ int main(int argc, char* argv[])
     cout<<"Odgadles sekretna liczbe!("<<liczba<<") za "<<proba<<" razem"<<endl;
     char znak;
     cin.get(znak);
-   // exit(1);
     return a.exec();
 }
