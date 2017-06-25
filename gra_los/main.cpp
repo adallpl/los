@@ -9,8 +9,14 @@ int main(int argc, char* argv[])
     srand(time(NULL));
     int proba = 1;
     int x =0;
-    cout<<"Zgadnij liczbe  przedzialu 1 -20" << endl;
-    int liczba = ((rand() % 20) + 1); //losowanie liczb z przedzialu 1 - 20
+    cout << "Podaj przedzial z jakiego chcesz zgadywac" <<endl;
+    int b;
+    int c;
+
+    cin >> b>> c;
+
+    cout<<"Zgadnij liczbe  przedzialu "<< b << " - " << c << endl;
+    int liczba = ((rand() % c) + b); //losowanie liczb z przedzialu 1 - 20
 
     while(liczba!=x)
     {
